@@ -1,5 +1,5 @@
 body {
-	text-align: center;
+	text-align: left;
 	padding-top: 30px;
 }
 #box1 {
@@ -17,10 +17,24 @@ body {
   background: blue;
   width: 100px; height: 100px;
 }
+#box4 {
+  background: red;
+  width: 200px; height: 200px;
+  display: inline-block;
+}
+#box5 {
+  background: green;
+  width: 150px; height: 150px;
+}
+#box6 {
+  background: blue;
+  width: 100px; height: 100px;
+}
 p {
 	font-family: Georgia;
 	font-size: 18px;
-	display: inline-block;
-	width: 300px;
-	margin: 0 15px;
+	display: block;
+	width: 500px;
+	margin: 10px;
+	text-align: left;
 }

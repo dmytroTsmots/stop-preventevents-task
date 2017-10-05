@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+  <h3>Використовуємо .stopPropagation()</h3>
   <div id="box1" class="box">
     <div id="box2" class="box">
       <div id="box3" class="box">
@@ -13,8 +14,17 @@
       </div>
     </div>
   </div>
-  <p><strong>Event.preventDefault():</strong> Prevents the default action of the event from triggering. Does not stop the event propagation to parent DOM elements.
-<strong>Event.stopPropagation():</strong> Prevents the default action of the event from propagating to parent DOM elements.</p>
+  <h3>Використовуємо .preventDefault()</h3>
+  <div id="box4" class="box">
+    <div id="box5" class="box">
+      <div id="box6" class="box">
+
+      </div>
+    </div>
+  </div>
+  <p><strong>Event.preventDefault():</strong> Якщо ми хочемо запобігти дії браузера за замовчуванням, то нам слід використовувати .preventDefault().</p>
+  <p>
+<strong>Event.stopPropagation():</strong> Якщо ми хочемо заборонити передачу події від дочірнього елемента до батьківського то нам слід використовувати .stopPropagation().</p>
   
   <script type="text/javascript" src="js/script.js"></script>
 </body>
